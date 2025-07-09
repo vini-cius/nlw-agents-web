@@ -18,7 +18,7 @@ export function RoomList() {
         </CardDescription>
       </CardHeader>
 
-      <CardContent className="flex flex-col gap-3">
+      <CardContent className="flex flex-col gap-3 h-96 overflow-auto">
         {isLoading && <p className="text-muted-foreground text-sm">Loading...</p>}
 
         {
